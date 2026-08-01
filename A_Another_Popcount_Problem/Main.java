@@ -18,7 +18,7 @@ public class Main {
             long totalPopcount = 0;
             long weight = 1;
 
-            // Greedily take as many lowest-weight bits as possible
+           
             while (n > 0 && weight <= n) {
                 long take = Math.min(k, n / weight);
                 totalPopcount += take;
